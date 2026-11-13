@@ -9,7 +9,7 @@ spec:
     # main and tagged with the workflow run number. NewestBuild picks the most
     # recently pushed matching image.
     - image:
-        repoURL: ghcr.io/SndR85/kargo-workshop-kcd-nyc-2026
+        repoURL: ghcr.io/sndr85/kargo-workshop-kcd-nyc-2026
         imageSelectionStrategy: NewestBuild
         AllowTagsRegexes:
           - ^[0-9]+$

@@ -22,7 +22,7 @@ spec:
         - name: repoURL
           value: https://github.com/SndR85/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/SndR85/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/sndr85/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
@@ -75,7 +75,7 @@ spec:
         - name: repoURL
           value: https://github.com/SndR85/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/SndR85/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/sndr85/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
@@ -127,7 +127,7 @@ spec:
         - name: repoURL
           value: https://github.com/SndR85/kargo-workshop-kcd-nyc-2026
         - name: image
-          value: ghcr.io/SndR85/kargo-workshop-kcd-nyc-2026
+          value: ghcr.io/sndr85/kargo-workshop-kcd-nyc-2026
       steps:
         - uses: git-clone
           config:
