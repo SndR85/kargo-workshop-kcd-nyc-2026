@@ -17,7 +17,7 @@
 #
 # Everything is idempotent and each section can be skipped — see --help.
 #
-set -euo pipefail
+#set -euo pipefail
 
 # --- Defaults -----------------------------------------------------------------
 
