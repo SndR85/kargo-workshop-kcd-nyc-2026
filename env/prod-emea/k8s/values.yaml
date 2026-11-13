@@ -2,6 +2,6 @@
 stage: prod-emea
 replicaCount: 2
 image:
-  tag: 4
+  tag: 2
 env:
   LAMBDA_URL: ""
