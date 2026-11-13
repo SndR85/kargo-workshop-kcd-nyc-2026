@@ -11,7 +11,8 @@ spec:
     - image:
         repoURL: ghcr.io/sndr85/kargo-workshop-kcd-nyc-2026
         imageSelectionStrategy: NewestBuild
-        allowTags: ^[0-9]+$
+        AllowTagsRegexes:
+          - ^[0-9]+$
         discoveryLimit: 10
     # The repo itself, so the chart/lambda/terraform source travels with the
     # freight. We exclude env/ (the promotion writes there) to avoid a loop.
